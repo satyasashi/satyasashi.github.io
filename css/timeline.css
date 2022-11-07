@@ -1,0 +1,29 @@
+.timeline-section {
+    width: 100%;
+}
+.timeline {
+    width: 80%;
+    margin: 0 auto;
+    border-left: 2px solid hsl(0, 2%, 35%);
+    position: relative;
+    list-style: none;
+}
+
+.timeline .timeline-item {
+    position: relative;
+}
+
+.timeline .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.timeline .timeline-item:after {
+    background-color: hsl(192, 88%, 53%);
+    left: -47px;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+}
